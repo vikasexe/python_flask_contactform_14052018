@@ -1,0 +1,7 @@
+# Ignore Python Virtual environment files 
+venv
+.vscode
+__pycache__
+
+# Ignore files
+desktop.ini

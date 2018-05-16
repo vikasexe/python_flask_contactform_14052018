@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>All Contacts</h1>
+        <div>
+        
+        <ul>
+            {% for todo in incomplete %}
+            <li style="font-size: 30pt">{{ todo.name }} </li>
+            {% endfor %}    
+        </ul>
+        
+    </div>
+</body>
+</html>
